@@ -1,0 +1,95 @@
+    .banner {
+        width: 100vw;
+        height: 100vh;
+        background: url(../imagens/teste1.jpg) fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .fundo-escuro {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #000;
+        opacity: .8;
+    }
+    
+    .banner-logo {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 100%;
+    }
+    
+    .banner-logo .logo {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .banner-logo .logo img {
+        box-shadow: -0.7rem .2rem 7px rgba(0, 0, 0, 0.9);
+        border-radius: 10%;
+        width: 8rem;
+        height: 6rem;
+        margin: 0rem 0rem 1rem 1rem;
+        background: #900BF9;
+    }
+    
+    .banner-logo .logo h1 {
+        padding: 2rem 0 0 1rem;
+        font-size: 3rem;
+        font-weight: 700;
+        text-shadow: -0.5rem 0.2rem 8px rgb(0 0 0 / 90%);
+        letter-spacing: .2rem;
+        white-space: nowrap;
+        color: #fff;
+        animation: moveBanner ease 4.2s;
+    }
+    
+    .banner-logo h2 {
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-left: 1.5rem;
+    }
+    
+    @keyframes moveBanner {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .banner {
+            background: url(../imagens/bgd400.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .banner-logo {
+            left: 3%;
+        }
+        .banner-logo .logo {
+            left: 5%;
+            margin-bottom: 0;
+        }
+        .banner-logo .logo img {
+            width: 5rem;
+            height: 4rem;
+        }
+        .banner-logo .logo h1 {
+            letter-spacing: .1rem;
+            padding: 1.8rem 0 0 .4rem;
+            font-size: 2rem;
+        }
+        .banner-logo h2 {
+            font-size: .8rem;
+        }
+    }

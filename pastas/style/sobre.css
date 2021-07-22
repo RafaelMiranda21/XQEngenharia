@@ -1,0 +1,107 @@
+.sobre {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.poligono-top {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    background: #fff;
+    top: 0;
+    clip-path: polygon(0% 0%, 70% 100%, 100% 0%);
+}
+
+.poligono-bottom {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    bottom: 0;
+    background: #fff;
+    clip-path: polygon(0% 100%, 30% 0%, 100% 100%);
+}
+
+.background-fundo {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.img-fundo {
+    width: 100%;
+    height: 100%;
+    background: url(../imagens/SobreNos.gif) fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .1;
+    position: absolute;
+}
+
+.areaHistoria {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 10rem);
+    margin-top: 5rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(.1);
+}
+
+.areaHistoria.is-visible {
+    transform: scale(1);
+    transition: all ease 1s;
+}
+
+.historia {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.destaque {
+    color: #CA00EB;
+    font-weight: 700;
+}
+
+@media screen and (max-width:480px) {
+    .areaHistoria {
+        padding-left: 1rem;
+    }
+    .historia {
+        font-size: 13px;
+    }
+    .historia h1 {
+        white-space: nowrap;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .img-fundo {
+        background: none;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .areaHistoria {
+        padding-left: 4rem;
+    }
+    .historia {
+        font-size: 18px;
+    }
+    .img-fundo {
+        background: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .areaHistoria {
+        padding-left: 4rem;
+    }
+    .historia {
+        font-size: 22px;
+    }
+}

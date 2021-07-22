@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea,
+a {
+    font: 400 16px Public Sans, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.home {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    visibility: hidden;
+    color: black;
+}
+
+.home:hover .fa-arrow-up {
+    animation: home linear 1s infinite;
+}
+
+@keyframes home {
+    to {
+        transform: translateY(0);
+    }
+    from {
+        transform: translateY(-.3rem);
+    }
+}
+
+.rodape {
+    height: 40vh;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo-rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.conteudo-rodape h1 {
+    font-size: 25px;
+}
+
+.conteudo-rodape a {
+    margin: 1rem 0 0 0;
+    color: rgb(191 191 191);
+}
+
+.conteudo-rodape a:hover {
+    margin: 1rem 0 0 0;
+    color: #fff;
+}
+
+@media screen and (max-width:320px) {
+    .conteudo-rodape h1 {
+        font-size: 11px;
+    }
+    .conteudo-rodape a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:480px) {
+    .conteudo-rodape h1 {
+        font-size: 14px;
+    }
+    .conteudo-rodape a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .conteudo-rodape h1 {
+        font-size: 17px;
+    }
+    .conteudo-rodape a {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .conteudo-rodape h1 {
+        font-size: 20px;
+    }
+    .conteudo-rodape a {
+        font-size: 20px;
+    }
+}

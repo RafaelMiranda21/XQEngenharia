@@ -1,0 +1,67 @@
+.tapa-waze {
+    height: 3.7rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: #fff;
+}
+
+.map-location {
+    width: 100vw;
+    height: 75vh;
+    position: relative;
+}
+
+.rota {
+    width: 11rem;
+    height: 2rem;
+    background: rgb(1, 177, 201);
+    position: absolute;
+    top: 8rem;
+    left: 2.5%;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0rem 0rem 15px #000;
+}
+
+.calc-rota {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calc-rota i {
+    font-size: 20px;
+}
+
+.calc-rota p {
+    margin-bottom: 0;
+}
+
+.rota a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+@media screen and (max-width:480px) {
+    .rota {
+        width: 11rem;
+        height: 2rem;
+        top: 7rem;
+        left: 6%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .rota {
+        width: 12rem;
+        height: 2rem;
+        top: 7rem;
+        left: 4%;
+    }
+}
