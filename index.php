@@ -76,20 +76,20 @@
                         <h1>Industria</h1>
                     </div> <a name="link para obras de industria" href="/industria"><img src="./pastas/imagens/areaAtuacao/industria.webp" alt=""></a>
                 </div>
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <div class="titulo-area">
                         <h1>Obras de Arte</h1>
                     </div> <a name="link para obras de obrasdearte" href="/obrasdearte"><img src="./pastas/imagens/areaAtuacao/obras-arte.webp" alt=""></a>
-                </div>
-                <div class="swiper-slide">
+                </div> -->
+                <!-- <div class="swiper-slide">
                     <div class="titulo-area">
                         <h1>Saneamento</h1>
                     </div> <a name="link para obras de saneamento" href="/saneamento"><img src="./pastas/imagens/areaAtuacao/Saneamento.webp" alt=""></a>
-                </div>
+                </div> -->
                 <div class="swiper-slide">
                     <div class="titulo-area">
-                        <h1>Shopping e Comercio</h1>
-                    </div> <a name="link para obras de shopping" href="/shopping"><img src="./pastas/imagens/areaAtuacao/shopping.webp" alt=""></a>
+                        <h1>Estruturas Residenciais</h1><h1>e</h1><h1>Comerciais</h1>
+                    </div> <a name="link para obras de shopping" href="/comercio&estruturaresidencial"><img src="./pastas/imagens/areaAtuacao/shopping.webp" alt=""></a>
                 </div>
             </div>
         </div>
@@ -119,7 +119,7 @@
         </div>
         <div class="map-location">
             <!-- <div class="tapa-waze"></div> -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15290.061564224343!2d-49.2612752!3d-16.6510733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9b3c7aae7fb7075!2sXQ%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1626354717554!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe title="Rota para a XQ Engenharia" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15290.061564224343!2d-49.2612752!3d-16.6510733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe9b3c7aae7fb7075!2sXQ%20Engenharia!5e0!3m2!1spt-BR!2sbr!4v1626354717554!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             <div class="rota">
                 <a name="link para calcular a rota" href="https://www.google.com/maps/dir//XQ+Engenharia+-+Avenida+Desembargador+Emilio+Francisco+P%C3%B3voa+Quadra+01+A+Lote+04+-+Crimeia+Leste,+Goi%C3%A2nia+-+GO,+74660-320/@-16.6503153,-49.2607178,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x935ef3bb70cd2e1b:0xe9b3c7aae7fb7075!2m2!1d-49.2612752!2d-16.6510733!3e0?hl=pt-BR" rel="noopener" target="_blanck"></a>
                 <div class="calc-rota">
@@ -193,7 +193,7 @@
                                 <div class="input-group">
                                     <textarea placeholder="Sua mensagem *" name="msg" required></textarea>
                                 </div>
-                                <input class="inputImg" id="inputImg" type="file" name="arquivo"></input>
+                               <label><input class="inputImg" id="inputImg" type="file" name="arquivo"></input></label>
                                 <div class="button">
                                     <input type="submit" value="Enviar"/>
                                 </div>
@@ -207,10 +207,10 @@
     <script src="./pastas/script/min/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./pastas/style/min/swiper-bundle.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="./pastas/style/min/area-atuacao.min.css">
+    <link rel="stylesheet" href="./pastas/style/area-atuacao.css">
     <link rel="stylesheet" href="./pastas/style/sobre.css">
     <link rel="stylesheet" href="./pastas/style/min/mapa.min.css">
-    <link rel="stylesheet" href="./pastas/style/contato.css">>
+    <link rel="stylesheet" href="./pastas/style/contato.css">
     <script src="./pastas/script/min/menu.min.js"></script>
     <script src="./pastas/script/min/email.min.js"></script>
     <script src="./pastas/script/min/area-atuacao.min.js"></script>
