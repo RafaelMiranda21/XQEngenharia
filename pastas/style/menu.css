@@ -13,7 +13,6 @@
     border-radius: 1.3rem;
 }
 
-
 .show-menu .menu-hamburguer {
     right: 9rem;
     transition: all ease 900ms;
@@ -148,7 +147,7 @@
 
 .social-media i {
     color: rgba(0, 0, 0);
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     align-items: center;

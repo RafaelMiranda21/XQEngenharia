@@ -69,12 +69,12 @@
                 <div class="swiper-slide">
                     <div class="titulo-area ">
                         <h1>Infraestrutura</h1>
-                    </div> <a name="link para obras de infraestrutura" href="/infraestrutura"><img src="./pastas/imagens/areaAtuacao/infraestrutura.webp" alt=""></a>
+                    </div> <a name="link para obras de infraestrutura" href="/infraestrutura"><img src="./pastas/imagens/areaAtuacao/Infraestrutura/1.webp" alt="Infraestrutura"></a>
                 </div>
                 <div class="swiper-slide">
                     <div class="titulo-area">
                         <h1>Industria</h1>
-                    </div> <a name="link para obras de industria" href="/industria"><img src="./pastas/imagens/areaAtuacao/industria.webp" alt=""></a>
+                    </div> <a name="link para obras de industria" href="/industria"><img src="./pastas/imagens/areaAtuacao/Industriais/1.webp" alt="Industriais"></a>
                 </div>
                 <!-- <div class="swiper-slide">
                     <div class="titulo-area">
@@ -89,7 +89,7 @@
                 <div class="swiper-slide">
                     <div class="titulo-area">
                         <h1>Estruturas Residenciais</h1><h1>e</h1><h1>Comerciais</h1>
-                    </div> <a name="link para obras de shopping" href="/comercio&estruturaresidencial"><img src="./pastas/imagens/areaAtuacao/shopping.webp" alt=""></a>
+                    </div> <a name="link para obras de shopping" href="/estruturasresidenciais&comerciais"><img src="./pastas/imagens/areaAtuacao/Residência e comércio/1.webp" alt="estruturasresidenciais&comerciais"></a>
                 </div>
             </div>
         </div>
